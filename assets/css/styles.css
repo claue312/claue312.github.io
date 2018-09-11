@@ -1,5 +1,22 @@
 body {
-    background:#ffa;
+    background: #0000FF;
     font-size: 30px;
 
 }
+.small {
+    width: 200px; 
+}
+
+.medium {
+    width: 400px; 
+} 
+
+div {
+    background: #ccc;
+
+}
+
+.header {background: yellow;
+}
+
+.content {background:#b20; }
