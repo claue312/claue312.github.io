@@ -1,15 +1,22 @@
-body { 
-    background: #f00
-    margin: 0; }
+body {
+    background: #0000FF;
+    font-size: 30px;
 
-
-.column {
-    background: #ff0
+}
+.small {
+    width: 200px; 
 }
 
- .wrapper {
-    width: 960px 
-    margin: 0 auto 0 auto;
-    background: #0f0;
+.medium {
+    width: 400px; 
+} 
 
-        }
+div {
+    background: #ccc;
+
+}
+
+.header {background: yellow;
+}
+
+.content {background:#b20; }
