@@ -1,22 +1,49 @@
 body {
-    background: #0000FF;
+    background: white;
     font-size: 30px;
+    font-family: 'Reem Kufi', sans-serif;
+}
 
+a {
+    text-decoration: none;
+    color: black;
+     }
+a:hover{color:rgb(25, 0, 255);  }
+
+
+h1 {font-size: 80px;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+
+
+}
+
+h2 {font-size: 30px;
+    text-align: center;
+    color:red;
 }
 .small {
     width: 200px; 
 }
+
+li {font-size: 28px;
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;}
+   
+
+.section {background: white;}
 
 .medium {
     width: 400px; 
 } 
 
 div {
-    background: #ccc;
+    background: rgb(255, 0, 0);
 
 }
 
-.header {background: yellow;
+.header {background:white;
 }
 
 .content {background:#b20; }
