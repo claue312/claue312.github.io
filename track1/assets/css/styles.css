@@ -1,7 +1,8 @@
 body {
   background:black;
   font-size: 30px;
-  font-family: 'Reem Kufi', sans-serif;
+  font-family: 'Luckiest Guy', cursive;
+  font-family: 'Roboto Mono', monospace;
   padding: 20px;
 }
 
@@ -14,7 +15,9 @@ a:hover{color:rgb(25, 0, 255);  }
 
 h1 {font-size: 80px;
   text-align: center;
-  color: white;}
+  color: white;
+  font-family: 'Luckiest Guy', cursive; 
+  font-style: 5px;}
 
 .c {background: black;
     padding: 100px;
@@ -36,8 +39,12 @@ h1 {font-size: 80px;
 .c5 {width: 66%;}
 h2 {font-size: 30px;
   text-align: center;
-  color: blue;} 
+  color: blue;
+  font-family: 'Luckiest Guy', cursive; } 
  img {width: 100%}
 
-h3 {color: red;
-      font-family: Serif;}
+h3 {color: green;
+  
+  font-family: 'Roboto Mono', monospace;
+    text-align: center;
+   }

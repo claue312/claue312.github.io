@@ -1,7 +1,8 @@
 body {
   background:black;
   font-size: 30px;
-  font-family: 'Reem Kufi', sans-serif;
+  font-family: 'Luckiest Guy', cursive;
+font-family: 'Roboto Mono', monospace;
   padding: 20px;
 }
 
@@ -18,7 +19,7 @@ h1 {font-size: 80px;
   color: white;
   font-family: 'Luckiest Guy', cursive;}
 
-h2 {font-family: 'Luckiest Guy', cursive;
+h2 {font-family: 'Roboto Mono', monospace;;
     color: green;}
     .c4 {widt: 200%;}
 .c1 {background: black;
@@ -51,4 +52,5 @@ h2 {font-size: 30px;
  img {width: 100%}
 
 h3 {color: green;
-      font-family: Serif;}
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;}

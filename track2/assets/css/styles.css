@@ -3,6 +3,7 @@ body {
   font-size: 30px;
   font-family: 'Reem Kufi', sans-serif;
   padding: 20px;
+  margin: 50px;
 }
 
 
@@ -41,8 +42,14 @@ h1 {font-size: 80px;
 .c5 {width: 66%;}
 h2 {font-size: 30px;
   text-align: center;
-  color: blue;} 
+  color: blue;
+  font-family: 'Luckiest Guy', cursive; } 
  img {width: 100%}
-
+ 
+ h4 {color: pink;
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;}
 h3 {color: green;
-      font-family: Serif;}
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;}
+
