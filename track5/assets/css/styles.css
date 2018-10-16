@@ -1,0 +1,41 @@
+
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: blue;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: blue;
+  color: white;
+  
+}
+
+h1 {text-align: center;
+  font-family: 'Fahkwang', sans-serif;}
+
+h2 {
+    text-align: center;
+    font-family: 'Fahkwang', sans-serif;}
+
+figcaption {font-size: 20px;}
