@@ -2,13 +2,17 @@ body {
   background:black;
   font-size: 30px;
   font-family: 'Reem Kufi', sans-serif;
-  padding: 20px;
+  margin: 200px;
+  padding: 100px;
+  margin-top: -150px;
 }
 
+.toplink {position: }
+ li {align: left;}
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
    }
 a:hover{color:rgb(25, 0, 255);  }
 
@@ -20,32 +24,20 @@ h1 {font-size: 80px;
 
 .c1 {background: black;
     padding: 100px;
-    display: inline-block
     flex: 33.33%;
-    padding: 50px;}
+    padding: 5px;}
 
 .row {display: flex;
       padding: 0px;}
-.c1 {float: left;
-    width: 50%;}
-
-.c2 {float: left;
-    width: 50%%;}
 
 
 
-.c4 {float: left;
-    width: 200%;}
-
-.c4 {width: 33%;}
-.c5 {width: 33%;
-    padding: 100px;}
 h2 {font-size: 30px;
   text-align: center;
   color: blue;
   font-family: 'Luckiest Guy', cursive; } 
  img {width: 100%}
 
-h3 {color: gold;
+h3 {color: white;
     font-family: 'Roboto Mono', monospace;
     font-size: 20px;}

@@ -1,5 +1,5 @@
 body {
-    background:black;
+    background-color: #000fff;
     font-size: 30px;
     padding: 20px;
   }
@@ -15,7 +15,7 @@ body {
   h1 {font-size: 80px;
     text-align: center;
     color: white;
-    font-family: 'Luckiest Guy', cursive;}
+    font-family: 'Roboto'; monospace;}
   
   .c1 {background: black;
       padding: 100px;
