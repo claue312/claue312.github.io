@@ -1,17 +1,85 @@
 * {box-sizing: border-box;}
 
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 0px;
+}
 
-body { 
-    background: white;
-    margin: 20px;
-    font-size: 15px; }
+html, body, .wrapper {
+    height: 100%;
+}
+.wrapper {height: 100%;
 
+}
 
-img {width: 100%; }
+.column {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    padding: 30px;
+    vertical-align: top;
+}
 
- .wrapper {
-    width: 960px ;
-    margin: 0 auto 0 auto;
-    background: #0f0;
+.content {
+    background: #f1f1f1;
+    padding: 20px;
 
+}
+
+.nav-item {
+    border: 1px solid #000;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 0 15px 15px 0;
+    font-size: 20px;
+}
+
+.nav-item:hover, .active {
+    background: #000;
+    color: #fff;
+    cursor: pointer;}
+
+.green { background: #B8E986;}
+.red { background: red;}
+.blue { background:blue;}
+.sol-lewitt { background:url('../img/sol-lewitt.gif')}
+.slay { position: fixed;
+        top: 0;
+        left: 0;
+        background: #000;
+        color: #fff;
+        font-size: 200px;
+        width: 100%;
+        height: 100%;
+        background: #000;
         }
+.message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate (-50%, -50%);}
+.about {background: #ffa;}
+
+
+
+
+ul, li {
+
+    margin: 10;
+    padding: 20px;
+    list-style: none;
+}
+
+.close {
+    font-size: 80px;
+    position: absolute;
+    line-height: 0;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
