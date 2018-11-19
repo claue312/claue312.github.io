@@ -1,23 +1,39 @@
+// $('.nav-item').click(function() {
+// var target = $(this);
+
+// console.log(target);
+
+// if (target == 'Apple') {
+//   $(.apple).removeClass('hide');
+// } else if (target == 'Nike') {
+//   $(.nike).removeClass('hide');
+// } else if (target == 'Disney') {
+//   $(.disney).removeClass('hide');
+// } else if (target == 'Vogue') {
+//   $(.vogue).removeClass('hide');
+// }
+// }
+
+// }
+
+// }
+ 
+// });
+
 $('.nav-item').click(function() {
-  var button_name = $(this).data('button');
-  
-  $('.about-text').addClass('hide');
-  $('.nav-item').removeClass('active');
-  $('.content').attr('class', 'column content');
-  $(this).addClass('active');
-  $('.content').addClass(button_name);
-  
-  if (button_name == 'beyonce') {
-    $('.slay').removeClass('hide');
-    $('audio')[0].play();
-  } else if (button_name == 'about') {
-    $('.about-text').removeClass('hide');
-  }
+  var img = $(this).data('img');
+  var classname = $(this).data('classname');
+  var img_to_show = '<div class= "logo ' + classname + '"> <img src="assets/img/' + img + '" /> </div>';
+  $('.content').prepend(img_to_show);
 
 });
 
-$('.close').click(function() {
-  $('.slay').addClass('hide');
-  $('audio')[0].pause();
-  $('.nav-item').removeClass('active');
+  // $('.content').append('img_to_show');
+  $('.content').prepend('img_to_show');
+
+  
+ 
+ 
+
 });
+

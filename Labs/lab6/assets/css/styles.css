@@ -1,30 +1,18 @@
-* {box-sizing: border-box;}
+* {box-sizing: border-box;
+   vertical-align: top;}
 
 body {
-    margin: 0;
+    margin: 30px;
     padding: 0;
     font-size: 0px;
 }
 
-html, body, .wrapper {
-    height: 100%;
-}
-.wrapper {height: 100%;
 
-}
+ul, li {
 
-.column {
-    width: 50%;
-    height: 100%;
-    display: inline-block;
-    padding: 30px;
-    vertical-align: top;
-}
-
-.content {
-    background: #f1f1f1;
-    padding: 20px;
-
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 .nav-item {
@@ -35,51 +23,53 @@ html, body, .wrapper {
     font-size: 20px;
 }
 
-.nav-item:hover, .active {
+.nav-item:hover {
     background: #000;
     color: #fff;
     cursor: pointer;}
 
-.green { background: #B8E986;}
-.red { background: red;}
-.blue { background:blue;}
-.sol-lewitt { background:url('../img/sol-lewitt.gif')}
-.slay { position: fixed;
-        top: 0;
-        left: 0;
-        background: #000;
-        color: #fff;
-        font-size: 200px;
-        width: 100%;
-        height: 100%;
-        background: #000;
-        }
-.message {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate (-50%, -50%);}
-.about {background: #ffa;}
+.content {
+        margin: 60px 0 0 0;
+        font-size: 20px;}
 
+ .hide {display: none;}
 
-
-
-ul, li {
-
-    margin: 10;
-    padding: 20px;
-    list-style: none;
+img {
+    height: 165px;}
 }
 
-.close {
-    font-size: 80px;
-    position: absolute;
-    line-height: 0;
-    top: 30px;
-    right: 30px;
-    cursor: pointer;
+.logo 
+{height: 165px;
+display: inline-block;
+margin: 0 30px 30px 0;
+position: relative;
+
 }
 
-.hide {
-    display: none;
+.logo.apple {width: 150px;}
+.logo.nike {width: 321px;}
+.logo.disney  {width: 382px;}
+.logo.vogue  {width: 330px;}
+
+.logo img {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
 }
+
+
+
+
+.logo.apple img {height: 150px;}
+.logo.nike img {height: 115px;}
+.logo.disney img {height: 165px;}
+.logo.vogue img {height: 110px;}
+
+
+
+
+
+
+
+
