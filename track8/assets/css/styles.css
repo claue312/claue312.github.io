@@ -6,10 +6,12 @@ body{
     background-size: cover;
     background-position: center;
     color: white;
-    font-family: Helvetica,Arial, sans-serif}
+    font-family: Helvetica,Arial, sans-serif;
+    margin: 0px;
+    padding 0px;}
 
-h1 {font-size: 400px;
-    text-align: left;}
+h1 {font-size: 300px;
+    padding:50px;}
 
 
  .flash {
