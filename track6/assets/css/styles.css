@@ -1,44 +1,68 @@
-body {
-  background:black;
-  font-size: 30px;
-  font-family: 'Reem Kufi', sans-serif;
-  margin: 200px;
-  padding: 100px;
-  margin-top: -150px;
+h1 {font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size:20px;}
+
+* { 
+  box-sizing: border-box;
+  vertical-align: top;
 }
 
-.toplink {position: }
- li {align: left;}
+body {
+  margin: 30px;
+  padding: 0;
+  font-size: 0;
+  font-family: 'Helvetica';
+  background: #000fff;
+}
 
-a {
-  text-decoration: none;
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-item {
+  border: 1px solid white;
+  padding: 10px 20px;
+  display: inline-block;
+  margin: 0 15px 15px 0;
+  font-size: 20px;
   color: white;
-   }
-a:hover{color:rgb(25, 0, 255);  }
+}
 
+.nav-item:hover {
+  background:white;
+  color: #000fff;
+  cursor: pointer;
+}
 
-h1 {font-size: 80px;
-  text-align: center;
-  color: white;
-  font-family: serif;}
+.content {
+  margin: 60px 0 0 0;
+  font-size: 20px;
+}
 
-.c1 {background: black;
-    padding: 100px;
-    flex: 33.33%;
-    padding: 5px;}
-    img {width: 100%}
+.hide { display: none; }
 
-.row {display: flex;
-      padding: 0px;}
+.logo {
+  height: 165px;
+  display: inline-block;
+  margin: 0 30px 30px 0;
+  position: relative;
+}
 
+.logo.logo.simoncho{ width: 200px; }
+.logo.logo.alishacho { width: 200px; }
+.logo.logo.babyfloaty { width: 200px; }
+.logo.vogue { width: 330px; }
 
+.logo img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-h2 {font-size: 30px;
-  text-align: center;
-  color: blue;
-  font-family: 'Luckiest Guy', cursive; } 
- img {width: 100%}
-
-h3 {color: white;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 20px;}
+.logo.simoncho img { height:200px;}}
+.logo.alishacho img { height: 200px; }
+.logo.babyfloaty img { height: 200 px; }
+.logo.vogue img { height:200 px;}
