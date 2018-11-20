@@ -1,7 +1,7 @@
 body {
   background:black;
   font-size: 30px;
-  font-family: 'Reem Kufi', sans-serif;
+  font-family: Helvetica, sans-serif;
   margin: 200px;
   padding: 100px;
   margin-top: -150px;
@@ -20,7 +20,7 @@ a:hover{color:rgb(25, 0, 255);  }
 h1 {font-size: 80px;
   text-align: center;
   color: white;
-  font-family: serif;}
+  font-family:  Helvetica, sans-serif}
 
 .c1 {background: black;
     padding: 100px;

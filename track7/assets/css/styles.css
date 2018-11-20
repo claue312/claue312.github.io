@@ -8,8 +8,9 @@ body{
     color: white;
     font-family: Helvetica,Arial, sans-serif}
 
-h1 {font-size: 400px;
-    text-align: left;}
+h1 {font-size: 100px;
+    text-align: center;
+    padding: 50px;}
 
 
  .flash {

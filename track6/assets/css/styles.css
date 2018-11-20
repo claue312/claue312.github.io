@@ -1,7 +1,8 @@
 h1 {font-family: Arial, Helvetica, sans-serif;
     color: white;
     font-size:275px;
-    text-align: left;}
+    text-align: left;
+    kerning: 5px;}
 
 h2 {font-family: Arial, Helvetica, sans-serif;
   color: white;
@@ -65,6 +66,7 @@ ul, li {
 .logo.logo.maria { width: 200px; height: 200px;}
 .logo.logo.ella { width: 200px; height: 200px;}
 .logo.logo.peter { width: 200px; height: 200px;}
+.logo.logo.adriana { width: 200px; height: 200px;}
 
 
 .logo img {
@@ -81,5 +83,6 @@ ul, li {
 .logo.maria  img{ width: 200px; height: 200px;}
 .logo.ella img { width: 200px; height: 200px;}
 .logo.peter img { width: 200px; height: 200px;}
+.logo.adriana img { width: 200px; height: 200px;}
 
 
