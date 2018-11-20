@@ -1,56 +1,44 @@
 body {
-  background:black;
-  font-size: 30px;
-  font-family: 'Luckiest Guy', cursive;
-font-family: 'Roboto Mono', monospace;
-  padding: 20px;
-}
-
-
-a {
-  text-decoration: none;
-  color: black;
-   }
-a:hover{color:rgb(25, 0, 255);  }
-
-
-h1 {font-size: 80px;
-  text-align: center;
-  color: white;
-  font-family: 'Luckiest Guy', cursive;}
-
-h2 {font-family: 'Roboto Mono', monospace;;
-    color: green;}
-    .c4 {widt: 200%;}
-.c1 {background: black;
-    padding: 100px;
-    display: inline-block
-    flex: 33.33%;
-    padding: 50px;}
-
-.row {display: flex;
-      padding: 0px;}
-.c1 {float: left;
-    width: 50%;}
-
-.c2 {float: left;
-    width: 50%%;
-    padding: 50px;}
-
-
-
-
-.c3 {float: left;
-    width: 50%;
-    padding: 50px;}
-
-.c4 {width: 70%;}
-.c5 {width: 66%;}
-
-h2 {font-size: 30px;
-  text-align: center;} 
- img {width: 100%}
-
-h3 {color: green;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 20px;}
+    font-size: 30px;
+    font-family: 'Reem Kufi', sans-serif;
+    margin: 0px;
+    padding: 40px;
+    margin-top: -150px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .toplink {position: }
+   li {align: left;}
+  
+  a {
+    text-decoration: none;
+    color: white;
+     }
+  a:hover{color:rgb(25, 0, 255);  }
+  
+  
+  h1 {font-size: 200px;
+    text-align: left;
+    color: white;
+    font-family: Helvetica, sans-serif}
+  
+  .c1 {background: black;
+      padding: 100px;
+      flex: 33.33%;
+      padding: 5px;}
+  
+  .row {display: flex;
+        padding: 0px;}
+  
+  
+  
+  h2 {font-size: 30px;
+    text-align: center;
+    color: blue;
+    font-family: 'Luckiest Guy', cursive; } 
+   img {width: 100%}
+  
+  h3 {color: white;
+      font-family:  Helvetica,Arial, sans-serif;
+      font-size: 20px;}
