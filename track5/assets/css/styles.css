@@ -1,9 +1,8 @@
 body {
   font-size: 30px;
-  font-family: 'Reem Kufi', sans-serif;
-  margin: 0px;
-  padding: 40px;
-  margin-top: -50px;
+  font-family: Helvetica, sans-serif;
+  margin:140px;
+  padding: 100px;
   background-size: cover;
   background-position: center;
 }
@@ -17,28 +16,3 @@ a {
    }
 a:hover{color:rgb(25, 0, 255);  }
 
-
-h1 {font-size: 100px;
-  text-align: left;
-  color: white;
-  font-family: Helvetica, sans-serif}
-
-.c1 {background: black;
-    padding: 100px;
-    flex: 33.33%;
-    padding: 5px;}
-
-.row {display: flex;
-      padding: 0px;}
-
-
-
-h2 {font-size: 30px;
-  text-align: center;
-  color: blue;
-  font-family: 'Luckiest Guy', cursive; } 
- img {width: 100%}
-
-h3 {color: white;
-    font-family:  Helvetica,Arial, sans-serif;
-    font-size: 20px;}
