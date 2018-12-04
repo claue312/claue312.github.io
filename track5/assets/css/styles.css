@@ -1,13 +1,17 @@
 body {
   font-size: 30px;
   font-family: Helvetica, sans-serif;
-  margin:140px;
-  padding: 100px;
-  background-size: cover;
-  background-position: center;
+  margin: 50px;
+  background: black;
 }
 
-.toplink {position: }
+h1 {color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;}
+h3 {color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;}
+/* .toplink {position: } */
  li {align: left;}
 
 a {
@@ -16,3 +20,26 @@ a {
    }
 a:hover{color:rgb(25, 0, 255);  }
 
+.container {
+  width: 200px;
+  margin-bottom: 10px;
+  border: 1px solid red;
+  white-space: nowrap; /** force the elements to stay side by side **/
+}
+
+img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid white;
+  vertical-align: middle
+}
+
+.text-container {
+  display: inline-block;
+  width: calc(100% - 60px); /** containers width - img width - margin-left **/
+  margin-left: 10px;
+  white-space: normal;
+  vertical-align: middle;
+  color: white;
+}
