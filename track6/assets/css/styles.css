@@ -1,220 +1,29 @@
-/* * {box-sizing: border-box;}
+*{box-sizing: border-box;}
 
 
-body { 
-    background: antiquewhite;
-    margin: 50px;
-    font-size: 0; }
+body{
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: Helvetica,Arial, sans-serif}
 
-    .c {
-        background: black;
-        padding: 30px;
-        margin: 0 15px 100px 15px;
-        display: inline-block;
-        font-size: 14px;
-    
-        
-    }
-.c1 {width: 40px;
-    height: 800px;}
-.c2 {width: 80px;
-    background: pink;
-    height: 800px;
-    padding-right: 200px;
-    padding-left: 200px;
-    margin-right: 500px;
-    margin-bottom: 50px;}
-
-.c3 {width: 40px;
-    height: 300px;
-    background: coral;}
-.c4 {width: 610px;
-    background: blue;}
-.c5 { width: 770px;}
-.c6 {  width: 930px;}
-
-img {width: 100%; }
-
- .wrapper {
-    width: 960px ;
-    margin: 0 auto 0 auto;
-    background:coral;
-    height: 250px;
-    padding: 50px; }
-
- /* .wrapper2 {
-   width: 960px ;
-   margin: 0 auto 0 auto;
-   background: gainsboro;
-   height: 250px;
-   padding-top: 50px; } */
-
-body {background: antiquewhite;
-      margin: 0px;
-      }
-
-.wrapper {background: coral;
-    width: 1200px;
-    margin: 0 auto 0 auto;
-    height: 250px;
-    padding: 50px; 
-  }
-
-  .c {display: inline-block;
-     margin: 0 15px 100px 15px;
-
-    }
+h1 {font-size: 100px;
+    text-align: center;
+    padding: 50px;}
 
 
-  .c1 {background:black;
-       width: 50px;
-      height: 800px;
-      margin-top: 300px;}
+ .flash {
+      animation-name: flash;
+       animation-duration: 0.2s;
+       animation-timing-function: linear;
+       animation-iteration-count: infinite;
+       animation-direction: alternate;
+       animation-play-state: running;
+   }
+   
+   @keyframes flash {
+       from {color: red;}
+       to {color: black;}
+   }
 
-    .c2 {background: gray;
-      width: 50px;
-      height: 800px;
-      margin-left: 100px; }
-
-  
-
-  .c3 {background:black;
-    width: 50px;
-    height: 800px;
-    margin-left: 100px;
-  
-  }
-
-  .c4 {background: gray;
-    width: 50px;
-    height: 800px;
-    margin-left: 100px;
-  
-  }
-
-  .c5 {background: black;
-    width: 50px;
-    height: 800px;
-    margin-left: 100px;
-  
-  }
-
-  .c6 {background: gray;
-    width: 50px;
-    height: 800px;
-    margin-left: 100px; }
-
-    .c7 {background:black;
-      width: 50px;
-      height: 800px;
-      margin-left: 100px;
-    
-    }
-.wrapper1 {background: white;
-  width: 522px;
-  align: left;
-  height: 700px;
-  padding: 50px; 
-}
-
-.wrapper2 {background:coral;
-  width: 720px;
-  align: left;
-  height: 700px;
-  padding: 0px;
-  margin-left: 572px;
-}
-  .c10 {background: gray;
-      width: 50px;
-      height: 700px;
-      margin: 50px;
-      padding: 0px;
-
-
-    }
-
-    .c11 {background:antiquewhite;
-      width: 50px;
-      height: 700px;
-      margin: 50px;
-      padding: 0px;
-
-    }
-
-    .c12 {background:gray;
-      width: 50px;
-      height: 700px;
-      margin: 50px;
-      padding: 0px;
-
-    }
-
-
-    .wrapper3 {background: black;
-      width: 572px;
-      align: left;
-      height: 750px;
-      padding: 0x;
-     
-    }
-
-    .wrapper4 {background: white;
-      width: 720px;
-  align: left;
-  height: 700px;
-  padding: 0px;
-  margin-left: 572px; }
-
-
-  .c14 {background: black;
-    width: 50px;
-    height: 800px;
-    margin-left: 100px;
-  
-  }
-
-  .c15 {background:black;
-    width: 50px;
-    height: 800px;
-    margin-left: 100px; }
-
-    .c16 {background:black;
-      width: 50px;
-      height: 800px;
-      margin-left: 100px;
-    
-    }
-
-    .c17 {background:black;
-      width: 50px;
-      height: 800px;
-      margin-left: 100px;
-    
-    }
-
-    .wrapper5 {background: black;
-      width: 1200px;
-      margin: 0 auto 0 auto;
-      height: 250px;
-      padding: 50px; 
-    }
-
-    .wrapper6 {background: white;
-      width: 1200px;
-      margin: 0 auto 0 auto;
-      height: 125px;
-      padding: 50px; 
-    }
-    .wrapper7 {background: coral;
-      width: 1200px;
-      margin: 0 auto 0 auto;
-      height: 250px;
-      padding: 50px; 
-    }
-
-    .wrapper8 {background:gray;
-      width: 1200px;
-      margin: 0 auto 0 auto;
-      height: 125px;
-      padding: 50px; 
-    }
