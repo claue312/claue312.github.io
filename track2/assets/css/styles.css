@@ -1,60 +1,41 @@
+
 body {
-  background:black;
-  font-size: 30px;
-  font-family: Helvetica, sans-serif;
-  padding: 20px;
-  margin: -50px;
-}
+    background:black;
+    margin: 0px;
+  }
 
-
-a {
-  text-decoration: none;
+  .whiteblock{
+  font-size: 80px;
+  text-align: center;
   color: black;
-   }
-a:hover{color:rgb(25, 0, 255);  }
+  background: white;
+  height: 95vh;
+  padding: 40px;
+  font-family: Arial, Helvetica, sans-serif; }
 
-
-h1 {font-size: 80px;
-  text-align: center;
-  color: white;
-  font-family: Helvetica, sans-serif;}
-
-.c1 {background: black;
-    padding: 100px;
-    display: inline-block
-    flex: 33.33%;
-    padding: 50px;}
-
-.row {display: flex;
-      padding: 0px;}
-.c1 {float: left;
-    width: 50%;}
-
-.c2 {float: left;
-    width: 50%%;}
-
-
-
-.c4 {float: left;
-    width: 200%;}
-
-.c4 {width: 33%;}
-.c5 {width: 66%;}
-h2 {font-size: 30px;
-  text-align: center;
-  color: blue;
-  font-family:  Helvetica, sans-serif;
-  padding-top:  -50px;} 
- img {width: 100%}
- 
- h4 {color: pink;
-    font-size: 20px;
-    font-family: font-family: Helvetica, sans-serif;
-    text-align: center;}
-h3 {color: green;
-    font-size: 20px;
-    font-family: font-family: Helvetica, sans-serif;
-    width: 90%;
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    padding: 0 4px;
     align: center;
-    padding: 50px;}
+  }
+  
+  img {width: 310px;
+      height: 310px;
+      padding: 50px; 
+      align: middle;}
 
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    
+  }
+
+
+  
