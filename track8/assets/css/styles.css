@@ -15,13 +15,12 @@ body { text-align: center;
 
 h1 {font-size: 190px;
     color: white; 
-    text-align: center;
+    text-align: left;
     }
 
     h2 {font-size: 190px;
         color: white; 
         text-align: left;
-        margin: 40px;
         }
     
    .button {text-align: right; 
