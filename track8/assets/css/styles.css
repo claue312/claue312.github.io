@@ -1,17 +1,10 @@
 div {
     border:none;
-    width:1024px;
-    height:768px;
-    padding-top: 2200px;
-    padding-bottom: 500px;
     margin-left: 400px; }
 
 
-img { width: 1024:px;
-    height: 768px;}
-#btn {
-    display:none;
-}
+img { width: 768px;
+    height: 1024px;}
 
 
 body { text-align: center;
@@ -25,3 +18,9 @@ h1 {font-size: 200px;
     text-align: center;
     }
 
+    h2 {font-size: 190px;
+        color: white; 
+        text-align: left;
+        margin: 40px;
+        }
+    
