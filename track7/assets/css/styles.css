@@ -1,14 +1,14 @@
 div {
     border:none;
-    width:1024px;
-    height:768px;
-    padding-top: 2200px;
+    width: 512px;
+    height:384px;
+    padding-top: 600px;
     padding-bottom: 500px;
-    margin-left: 400px; }
+    margin-left: 700px; }
 
 
-img { width: 1024:px;
-    height: 768px;}
+img { width: 50%;
+    height: 50%;}
 #btn {
     display:none;
 }
@@ -18,7 +18,8 @@ body { text-align: center;
     background: black;
     font-family: Helvetica,Arial, sans-serif;
     margin: 50px;
-    margin-bottom: 100px;}
+    margin-bottom: 100px;
+    width: 1200px;}
 
 h1 {font-size: 100px;
     color: white; 
