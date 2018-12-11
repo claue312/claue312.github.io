@@ -1,0 +1,30 @@
+*{box-sizing: border-box;}
+
+
+body{
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: Helvetica,Arial, sans-serif;
+    padding: 200px;}
+
+h1 {font-size: 70px;
+    text-align: center;
+    padding-top: 150px; }
+
+
+ .flash {
+      animation-name: flash;
+       animation-duration: 0.2s;
+       animation-timing-function: linear;
+       animation-iteration-count: infinite;
+       animation-direction: alternate;
+       animation-play-state: running;
+   }
+   
+   @keyframes flash {
+       from {color: red;}
+       to {color: black;}
+   }
+
