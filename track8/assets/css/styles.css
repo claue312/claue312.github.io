@@ -1,33 +1,26 @@
-*{box-sizing: border-box;}
+div {
+    border:none;
+    width:1024px;
+    height:768px;
+    padding-top: 2200px;
+    padding-bottom: 500px;
+    margin-left: 400px; }
 
 
-body{
-    text-align: center;
-    background-size: cover;
-    background-position: center;
-    color: white;
+img { width: 1024:px;
+    height: 768px;}
+#btn {
+    display:none;
+}
+
+
+body { text-align: center;
+    background: black;
     font-family: Helvetica,Arial, sans-serif;
-    margin: 0px;
-    padding 0px;}
+    margin: 50px;
+    margin-bottom: 100px;}
 
-h1 {font-size: 250px;
-    padding:50px;
-    text-align: center;
-    padding-top:250px;
-    m}
-
-
- .flash {
-      animation-name: flash;
-       animation-duration: 0.2s;
-       animation-timing-function: linear;
-       animation-iteration-count: infinite;
-       animation-direction: alternate;
-       animation-play-state: running;
-   }
-   
-   @keyframes flash {
-       from {color: red;}
-       to {color: black;}
-   }
+h1 {font-size: 200px;
+    color: white; 
+    text-align: center;}
 
