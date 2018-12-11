@@ -5,9 +5,7 @@ img { width: 768px;
 
 body { text-align: center;
     background: black;
-    font-family: Helvetica,Arial, sans-serif;
-    margin: 50px;
-    margin-bottom: 100px;}
+    font-family: Helvetica,Arial, sans-serif;}
 
 h1 {font-size: 100px;
     color: white; 
