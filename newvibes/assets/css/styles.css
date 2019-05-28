@@ -1,0 +1,11 @@
+body {background-color:black;
+ }
+.research {
+  width: 1296px;
+  height: 200px;
+  background: url("assets/img/rd1.png") no-repeat;
+  display: inline-block;
+}
+.research:hover {
+  background: url("assets/img/rd2.png") no-repeat;
+}
