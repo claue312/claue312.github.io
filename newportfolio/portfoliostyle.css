@@ -40,7 +40,7 @@ section p {line-height: 1; color: #bcbec0;}
 
 
 @media all and (min-width: 0px) {
-  .centered {width: 300px;}
+  .centered {width: 300px; margin: 30px;}
   .left, .left2, .right, .right2 , .left3, .right3 {width: 35%;}
   
   }
