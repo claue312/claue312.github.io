@@ -10,10 +10,11 @@ nav a:hover {font-size: 19pt; color: blue; font-weight: 100;}
 nav h1 {float: left;}
 .active {border-bottom: 5px; text-decoration: none; solid black; padding-bottom: 5px; padding-left: 10px; padding-right: 10px;margin: 20px 0px 0px 20px;}
 h1 {font-size: 20px; margin: 0px; padding:0; line-height: 70%; letter-spacing: .01em;}
-.left, .left2, .right, .right2, .left3, .right3 {display: inline-block; margin: 0px 0px 0px 20px; margin-top: 20px; max-width: ;}
+.left, .left2, .right, .right2, .left3, .right3 {display: inline-block; margin: 0px 0px 0px 20px; margin-top: 20px; border-style:}
 .title {font-size: 25px; line-height: 70%; color: black; font-weight: 100; padding: 0px; margin: 0px}
 .title:hover {font-size: 25px;color: blue; font-weight: 100;}
-img { max-width: 150%; height: auto; padding: 10px;}
+img { max-width: 150%; height: auto; padding: 1px; border-style: solid; border-width: .1px; border-color: black; margin-top: 25px;}
+
 
 
 section {font-size: 20px;}
